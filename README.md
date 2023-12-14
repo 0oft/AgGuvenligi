@@ -1,1 +1,325 @@
-# AgGuvenligi
+# AĞ GÜVENLİĞİ PROJE ÖDEVİ
+## Aşağıdaki maddeler üzerinde durulacaktır
+### [A. Ağ Güvenliği Politikaları](#a-ağ-güvenliği-politikaları-1)
+### [B. Güvenlik Denetimleri ve Testleri](#b-güvenlik-denetimleri-ve-testleri-1)
+### [C. Güncel Ağ Güvenliği Sorunları ve Çözümleri](#c-güncel-ağ-güvenliği-sorunları-ve-çözümleri-1)
+
+# A. Ağ Güvenliği Politikaları
+   - ## Tanım
+      - Ağ güvenliği politikaları, bir organizasyonun veya kurumun bilgi sistemlerinin ve ağ altyapısının korunmasını sağlamak için belirlediği kurallar, prosedürler ve standartlardır. Bu politikalar, ağdaki potansiyel riskleri belirlemek, değerlendirmek ve minimize etmek için oluşturulur
+   - ## 1. Risk Analizi ve Değerlendirme
+      - ### 1.1 Tanım
+         - Ağ güvenliği politikalarının önemli bir parçasıdır. Bu süreç, potansiyel tehditleri, zayıf noktaları ve riskleri tanımlamayı, bunların olasılığını ve etkisini değerlendirmeyi ve ardından bu riskleri yönetmek için stratejiler belirlemeyi içerir.
+      - ### 1.2 Varlık Tanımlama
+         - Bir organizasyonun ağ altyapısında yer alan ve güvenlik açısından önemli olan varlıkların belirlenmesi ve yönetilmesidir. Bu, ağın güvenliğini sağlamak için kritik olan sistemlerin, cihazların ve verilerin tanımlanmasını içerir.
+         - #### 1.2.1 Ağ Varlıklarının Belirlenmesi
+            - Ağ altyapısında bulunan tüm cihazlar, sistemler, sunucular, ağ bileşenleri ve diğer önemli unsurlar belirlenir. Bu, fiziksel cihazlar, yazılımlar, veritabanları, ağ segmentleri gibi çeşitli varlıkları içerebilir.
+         - #### 1.2.2 Varlık Önem Derecelendirmesi
+            - Belirlenen varlıklar, önemlerine göre sınıflandırılır. Örneğin, kritik altyapı unsurları, hassas veri depolayan sunucular veya ağın anahtar bileşenleri gibi varlıklar daha yüksek önem dereceleri alabilir.
+         - #### 1.2.3 Varlık Envanterinin Oluşturulması
+            - Belirlenen ağ varlıklarının detaylı bir envanteri oluşturulur. Bu envanter, her bir varlığın teknik özelliklerini, konumunu, işlevini, sahipliğini ve ağ üzerindeki rolünü içerebilir.
+         - #### 1.2.4 Varlık Yönetimi ve Koruma Stratejilerinin Belirlenmesi
+            - Her varlık için uygun güvenlik önlemleri ve yönetim stratejileri belirlenir. Bu, erişim kontrolleri, güvenlik yazılımları, düzenli güncellemeler ve yedekleme gibi önlemleri içerebilir.
+      - ### 1.3 Zaafiyet Analizi
+         - Bir organizasyonun veya kurumun ağ altyapısındaki potansiyel güvenlik açıklarını belirleme, analiz etme ve sınıflandırma sürecidir. Bu analiz, ağın kırılganlıklarını ve zayıf noktalarını tanımlayarak bunların giderilmesi veya en aza indirilmesi için stratejiler geliştirmeyi amaçlar.
+         - #### 1.3.1 Zaafiyetlerin Belirlenmesi
+            - Ağ altyapısında var olan potansiyel güvenlik açıkları ve zayıf noktalar tespit edilir. Bunlar, güncellenmemiş yazılım, zayıf şifreleme yöntemleri, erişim kontrollerindeki eksiklikler gibi çeşitli unsurları içerebilir.
+         - #### 1.3.2 Zaafiyetlerin Sınıflandırılması
+            - Belirlenen güvenlik açıkları, ciddiyetlerine göre sınıflandırılır. Örneğin, düşük, orta, yüksek veya kritik gibi sınıflandırmalar yapılabilir.
+         - #### 1.3.3 Zaafiyetlerin Analizi ve Değerlendirilmesi
+            - Belirlenen güvenlik açıkları ve zayıf noktaların etkileri ve olası riskleri değerlendirilir. Bu, bir zaafiyetin nasıl sömürülebileceği ve ağa olan etkisi üzerine odaklanır.
+         - #### 1.3.4 Zaafiyet Raporlarının Oluşturulması
+            - Analiz sonuçları raporlanır ve genellikle bu raporlar, bulunan zaafiyetlerin ayrıntıları, ciddiyeti, etkileri ve önerilen düzeltme veya güvenlik önlemleri içerir.
+      - ### 1.4 Risk Değerlendirmesi
+         - Bir organizasyonun ağ altyapısının karşılaştığı potansiyel tehlikeleri ve bu tehlikelerin olası etkilerini değerlendirme sürecidir. Bu süreç, ağın güvenlik zafiyetlerini belirleyerek riskleri azaltmak veya yönetmek için stratejiler geliştirmeyi amaçlar.
+         - #### 1.4.1 Tehditlerin Tanımlanması
+            - Ağ altyapısını etkileyebilecek olası tehlikeler ve tehditler belirlenir. Bunlar, doğal afetlerden siber saldırılara kadar geniş bir yelpazeyi kapsayabilir.
+         - #### 1.4.2 Varlıkların ve Zayıf Noktaların Belirlenmesi
+            - Ağda bulunan varlıklar ve zayıf noktalar, potansiyel riskleri belirlemede önemlidir. Bu adım, ağdaki cihazlar, yazılımlar, veritabanları ve bu varlıkların güvenlik açıkları gibi unsurları içerir.
+         - #### 1.4.3 Riskin Olasılığının ve Etkisinin Değerlendirilmesi
+            - Belirlenen tehlikelerin gerçekleşme olasılığı ve bu tehlikelerin organizasyon veya sistem üzerindeki potansiyel etkisi değerlendirilir. Örneğin, belirli bir tehdidin gerçekleşme olasılığı ve bu tehdidin organizasyona maliyeti veya itibarı üzerindeki etkisi gibi.
+         - #### 1.4.4 Risk Derecelendirmesi
+            - Belirlenen riskler, ciddiyetlerine ve önceliklerine göre derecelendirilir. Bu, hangi risklerin öncelikli olarak ele alınması gerektiğini belirlemede yardımcı olur.
+         - #### 1.4.5 Risk Yönetimi Stratejilerinin Belirlenmesi
+            - Yüksek öncelikli riskler için uygun önlemler ve yönetim stratejileri belirlenir. Bu stratejiler riskleri azaltmayı, kabul etmeyi, aktarmayı veya kaçınmayı içerebilir.
+   - ## 2. Politika Oluşturma
+      - ### 2.1 Tanım
+         - Bir organizasyonun veya kurumun ağ güvenliği standartlarını ve kurallarını belirlemek için yapılan süreci ifade eder. Bu politikalar, ağ altyapısının korunmasını sağlamak, veri güvenliğini sağlamak ve ağa erişimi yönetmek için belirli kuralları ve yönergeleri içerir.
+      - ### 2.2 Politika Amaçlarını Belirleme
+         - Belirli amaçlar doğrultusunda şekillendirilir. Politika amaçlarını belirlemek, bu politikanın neden gerekli olduğunu, hangi güvenlik sorunlarını ele aldığını ve hedeflerini netleştirmeyi içerir.
+         - #### 2.2.1 Ağ Güvenliği Hedefleri
+            - Politikanın genel hedefleri belirlenir. Örneğin, ağ güvenliğini artırmak, veri bütünlüğünü sağlamak, yetkisiz erişimi engellemek gibi.
+         - #### 2.2.2 Risklerin Azaltılması
+            - Politika, ağın maruz kaldığı potansiyel riskleri azaltmayı hedefler. Bu riskler, saldırılar, veri sızıntıları, servis kesintileri gibi çeşitli tehditler olabilir.
+         - #### 2.2.3 Uyumluluk ve Standartlar
+            - Politika, belirli standartlara veya uyumluluk gereksinimlerine uyumu sağlamayı amaçlar. Örneğin, endüstri standartlarına uyum sağlamak veya yasal düzenlemelere uygunluk sağlamak gibi.
+         - #### 2.2.4 Ağ Kaynaklarının Korunması
+            - Politika, ağdaki cihazlar, sunucular, yazılımlar ve verilerin korunmasını hedefler. Bu, güncel yazılım ve güvenlik yamalarının kullanılması, güçlü parola politikaları gibi unsurları içerebilir.
+         - #### 2.2.5 Kullanıcı Bilincini Artırmak
+            - Politika, çalışanların güvenlik konusunda eğitilmesini ve bilinçlendirilmesini hedefleyebilir. Kullanıcıların güvenlik açısından bilinçli olmaları, sosyal mühendislik gibi tehditleri azaltabilir.
+      - ### 2.3 Politika Kapsamını Tanımlama
+         - Politika kapsamının belirlenmesi önemlidir. Politika kapsamını tanımlamak, politikanın hangi alanlarda geçerli olacağını, hangi sistemleri veya departmanları etkileyeceğini ve politikanın hangi ağ bileşenleri üzerinde uygulanacağını belirtmeyi içerir.
+         - #### 2.3.1 Kapsanan Sistemler ve Bileşenler
+            - Politikanın etki alanında olacak ağ sistemleri, sunucular, çalışma istasyonları, ağ cihazları gibi bileşenlerin belirlenmesi. Örneğin, belirli bir departmanın sistemleri veya bütün kurumun ağ altyapısı gibi.
+         - #### 2.3.2 Uygulanabilir Departmanlar veya Bölümler
+            - Politikanın hangi departmanlara veya bölümlere uygulanacağının belirlenmesi. Örneğin, finans departmanı, insan kaynakları veya araştırma ve geliştirme gibi.
+         - #### 2.3.3 Fiziksel veya Coğrafi Kapsam
+            - Politikanın fiziksel yerler veya coğrafi bölgeler açısından kapsamının belirlenmesi. Örneğin, belirli bir bina veya ofis, birden fazla şube veya farklı ülkelerdeki tesisler gibi.
+         - #### 2.3.4 Politika Güncelleme ve İyileştirme Süreçleri
+            - Politikanın ne sıklıkla gözden geçirileceği ve güncelleneceği, yeniliklere nasıl uyum sağlayacağı gibi süreçlerin belirlenmesi.
+      - ### 2.4 Standart ve Yönergeleri Belirleme
+         - Ağ güvenliği için izlenecek prosedürleri, kuralları ve en iyi uygulamaları belirlemeyi içerir.
+         - #### 2.4.1 Parola Politikaları
+            - Güçlü parola gereksinimleri, parola değiştirme sıklığı, parola uzunluğu ve karmaşıklığı gibi parola kullanımı ile ilgili standartlar.
+         - #### 2.4.2 Güncelleme Politikaları
+            - Yazılım güncellemeleri ve yamalarının nasıl uygulanacağı, düzenli güncelleme periyotları gibi yönergeler.
+         - #### 2.4.3 Erişim Kontrolleri
+            - Kullanıcıların hangi kaynaklara ve bilgilere erişebileceğini belirleme, kullanıcı rolleri ve yetkilendirme süreçleri gibi standartlar.
+         - #### 2.4.4 Veri Güvenliği Standartları
+            - Hassas verilerin nasıl işleneceği, saklanacağı ve paylaşılacağına ilişkin kurallar. Veri şifreleme politikaları gibi.
+         - #### 2.4.5 Ağ Trafiği Yönetimi
+            - Ağ trafiğini izleme, izinsiz trafik algılama ve filtreleme gibi ağ yönetimi standartları.
+         - #### 2.4.6 Fiziksel Güvenlik Standartları
+            - Ağ ekipmanlarının fiziksel güvenliği, erişim kontrolü, cihazların konumlandırılması gibi standartlar.
+      - ### 2.5 Erişim Kontrol Politikaları
+         - Bir organizasyonun ağ kaynaklarına kimin, ne zaman, nasıl ve hangi seviyede erişebileceğini belirleyen kurallar ve yönergelerdir. Bu politikalar, ağ güvenliği için önemli bir rol oynar ve yetkilendirme süreçlerini, erişim haklarını ve izinleri düzenler.
+         - #### 2.5.1 Kimlik Doğrulama Yöntemleri
+            - Kullanıcıların kimliklerini doğrulama süreçlerini kapsar. Şifreler, çoklu faktör kimlik doğrulama (2FA/MFA), biyometrik veri gibi yöntemler bu politikaların içerisine dahil olabilir.
+         - #### 2.5.2 Yetkilendirme ve Roller
+            - Kullanıcıların erişebileceği kaynakları belirleme ve hangi seviyede erişim haklarına sahip olacağını tanımlama. Bu politikalar, roller ve ayrıcalıkların belirlenmesini içerir.
+         - #### 2.5.3 Erişim Denetimi
+            - Kimin hangi verilere erişebileceğini, hangi ağ kaynaklarına bağlanabileceğini ve erişim denetimlerinin nasıl uygulanacağını belirleme. Bu, kullanıcıların belirli dosyaları veya ağ bölümlerini erişmelerini kısıtlama veya izin verme sürecini içerebilir.
+         - #### 2.5.4 Erişim Zamanlaması
+            - Hangi zaman dilimlerinde, hangi kullanıcıların hangi kaynaklara erişebileceğini belirleme. Belirli zamanlarda erişimin sınırlanması veya izin verilmesi bu politikalar kapsamındadır.
+         - #### 2.5.5 Erişim İzleme ve Kayıt Tutma
+            - Erişim aktivitelerini izleme, kayıt altına alma ve gerektiğinde bu bilgilerin incelenmesi. Bu, ağdaki faaliyetleri izleme ve olası güvenlik ihlallerini tespit etme amacı taşır.
+      - ### 2.6 Güvenlik Duvarı ve Koruma Politikaları
+         - Ağ güvenliği için önemli bir bileşeni oluşturur. Bu politikalar, ağa giren ve çıkan trafiği denetlemek, filtrelemek ve korumak amacıyla oluşturulan kurallar ve yönergelerdir. Temel amaçları, istenmeyen trafiği engellemek ve ağ güvenliğini artırmak üzerinedir.
+         - #### 2.6.1 Güvenlik Duvarı Kuralları
+            - Güvenlik duvarının belirli trafiği nasıl izleyeceği, hangi trafiği engelleyeceği veya izin vereceği gibi kuralların belirlenmesi.
+         - #### 2.6.2 Erişim Kontrolleri
+            - Hangi kaynaklara erişim sağlanabileceğine dair kontrollerin belirlenmesi. Bu, belirli IP adreslerinden gelen trafiği engellemek veya belirli protokollere erişimi sınırlamak gibi olabilir.
+         - #### 2.6.3 Ağ Protokol ve Port Kontrolleri
+            - Hangi ağ protokollerinin ve portların kullanılacağına dair politikaların belirlenmesi. Örneğin, belirli bir portun kullanımının kısıtlanması veya belirli ağ protokollerinin engellenmesi gibi.
+         - #### 2.6.4 Saldırı Tespit ve Engelleme Politikaları
+            - Saldırı tespit sistemleri veya saldırı önleme sistemleri ile ilgili politikaların belirlenmesi. Bu, belirli saldırı türlerini tespit etme ve bu saldırıları engelleme stratejilerini içerebilir.
+         - #### 2.6.5 Antivirüs ve Güvenlik Yazılımları Politikaları
+            - Ağdaki antivirüs yazılımlarının güncel tutulması, belirli yazılımların veya dosyaların izin verilip verilmeyeceği gibi politikaların belirlenmesi.
+      - ### 2.7 Olay Yönetimi Politikaları
+         - Ağdaki olayların tespit edilmesi, raporlanması, yanıtlanması ve bu olaylarla başa çıkılmasını sağlamak için oluşturulan kurallar ve yönergelerdir. Bu politikalar, ağdaki olası güvenlik ihlallerini tespit etmeyi, yanıtlamayı ve gelecekteki saldırıları önlemeyi amaçlar.
+         - #### 2.7.1 Olay Tespit ve İzleme
+            - Potansiyel tehditlerin veya güvenlik olaylarının erken tespiti için izleme sistemlerinin kurulması ve kullanılması.
+         - #### 2.7.2 Olay Raporlama ve Analiz
+            - Olayların raporlanması, analiz edilmesi ve incelenmesi. Bu, olayların ciddiyetinin değerlendirilmesi ve benzer olayların tekrarını önlemek için derslerin çıkarılması anlamına gelir.
+         - #### 2.7.3 Olay Yanıtı ve Müdahale
+            - Olayların hızlı bir şekilde yanıtlanması ve müdahale edilmesi. Bu, saldırıların veya güvenlik ihlallerinin yayılmasını engellemek ve zararın en aza indirilmesini sağlamak amacıyla yapılır.
+         - #### 2.7.4 Olay Kayıt Tutma ve Raporlama
+            - Olayların ayrıntılı bir şekilde kaydedilmesi ve ilgili taraflara raporlanması. Bu, olayların sonrasında incelenmesi veya yasal gereksinimler için gerektiğinde bilgi sağlama amacı taşır.
+         - #### 2.7.5 Olayların Sınıflandırılması ve Önceliklendirilmesi
+            - Olayların ciddiyetine ve etkisine göre sınıflandırılması ve önceliklendirilmesi. Bu, hangi olayların daha acil müdahale gerektirdiğini belirlemede yardımcı olur.
+      - ### 2.8 Politika Uygulanabilirliğinin ve İzlenmesinin Sağlanması
+         - Belirlenen ağ güvenliği politikalarının etkin bir şekilde uygulanmasını ve politikaların ne kadar başarılı olduğunun takip edilmesini içerir. Bu süreçler, politikaların gerçek dünya durumuna uygunluğunu ve gerekliliklerini sağlama amacı taşır.
+         - #### 2.8.1 Uygulanabilirlik Sağlama
+            - Politikaların gerçek dünya senaryolarında kullanılabilir ve uygulanabilir olmasını sağlama. Bunun için politikaların iş süreçlerine, teknik gerekliliklere ve organizasyonel yapılara uygunluğu göz önünde bulundurulur.
+         - #### 2.8.2 Politika Uygulamasının İzlenmesi
+            - Politikaların ne kadar etkili bir şekilde uygulandığını izleme ve değerlendirme. Bu, politikaların gerektiği gibi takip edilip edilmediğini, uygulama sırasında karşılaşılan sorunları ve eksiklikleri belirleme sürecini içerir.
+         - #### 2.8.3 Denetimler ve Gözden Geçirmeler
+            - Politikaların düzenli olarak denetlenmesi ve gözden geçirilmesi. Bu, politikaların güncelliğinin korunmasını, değişen tehditlere uyum sağlamasını ve ihtiyaç halinde güncellenmesini sağlar.
+         - #### 2.8.4 Performans ve Etkinlik Değerlendirmesi
+            - Politikaların ağ güvenliğine olan etkilerini değerlendirme. Bu, politikaların ne kadar etkili olduğunu, ağ güvenliği açısından ne gibi gelişmeler sağladığını ve politikaların amacına ne kadar uygun olduğunu ölçmeyi içerir.
+         - #### 2.8.5 Geri Bildirim ve İyileştirme
+            - Kullanıcı ve sistem yöneticilerinden gelen geri bildirimleri değerlendirme ve politikaların geliştirilmesi. Bu, kullanıcıların politikaları nasıl algıladığını, uygulama zorluklarını ve politikaların iyileştirilmesi gereken alanlarını anlamayı içerir.
+   - ## 3. Uygulama ve Eğitim
+      - ### 3.1 Tanım
+         - Ağ güvenliği politikalarının uygulanması ve eğitimi, belirlenen politikaların organizasyon içindeki kullanıcılar ve personel tarafından nasıl uygulanacağını ve bu politikaların kullanıcılar tarafından nasıl anlaşılacağını içerir.
+      - ### 3.2 Politikaların Uygulanması
+         - Belirlenen politikaların organizasyon içinde gerçek dünya senaryolarına nasıl entegre edileceğini ve teknik altyapıda nasıl hayata geçirileceğini içerir. Bu süreç, politikaların pratikte nasıl kullanılacağının ve günlük iş süreçlerine nasıl entegre edileceğinin planlanmasıdır.
+         - #### 3.2.1 Teknik Uygulama
+            - Belirlenen politikaların teknik altyapıya nasıl entegre edileceğinin belirlenmesi ve teknik ekipler tarafından bu politikaların nasıl uygulanacağının planlanması. Örneğin, ağ güvenliği duvarlarına hangi kuralların ekleneceği veya erişim kontrol listelerinin nasıl güncelleneceği gibi.
+         - #### 3.2.2 Kaynak Tahsisi
+            - Politikaların uygulanması için gerekli kaynakların (insan kaynağı, finansal kaynaklar, teknolojik altyapı vb.) belirlenmesi ve tahsis edilmesi. Bu, politikaların uygulanması için gerekli olan kaynakların sağlanmasını içerir.
+         - #### 3.2.3 Eğitim ve Farkındalık
+            - Kullanıcıların politikalarla ilgili eğitilmesi ve farkındalıklarının artırılması. Bu, kullanıcıların politikaların uygulanmasını nasıl anlayacaklarını ve gerektiğinde bu politikaları nasıl takip edeceklerini öğrenmelerini içerir.
+         - #### 3.2.4 Test ve Denetimler:
+            - Politikaların uygulanmasından önce test edilmesi ve denetlenmesi. Bu, politikaların uygulama sürecinin doğru işlediğinden ve ağ güvenliği açısından herhangi bir risk oluşturmadığından emin olmayı içerir.
+         - #### 3.2.5 Süreçlerin Belirlenmesi
+            - Politikaların uygulanma sürecinde hangi adımların takip edileceğinin belirlenmesi ve bu süreçlerin standartlaştırılması. Bu, politikaların günlük iş süreçlerine nasıl entegre edileceğinin planlanmasını içerir.
+      - ### 3.3 Eğitim Programları
+         - Kullanıcılara politikaların anlatılması ve eğitim programları aracılığıyla bu politikaların nasıl uygulanacağının öğretilmesi. Bu, güvenlik farkındalığını artırmayı, doğru uygulama yöntemlerini öğretmeyi ve politikaların neden önemli olduğunu vurgulamayı içerir.
+      - ### 3.4 Sürekli Eğitim ve Bilgilendirme
+         - Politikaların değiştiği veya güncellendiği durumlarda personelin ve kullanıcıların bu değişiklikler hakkında bilgilendirilmesi. Bu, güvenlik risklerine karşı sürekli bir farkındalık oluşturmayı ve politika değişikliklerinin doğru bir şekilde anlaşılmasını içerir.
+      - ### 3.5 Uygulama Denetimleri
+         - Politikaların doğru bir şekilde uygulanıp uygulanmadığını kontrol etmek için düzenli denetimlerin yapılması. Bu, politikaların etkin bir şekilde uygulandığından emin olmayı içerir.
+      - ### 3.6 Geribildirim ve İyileştirme
+         - Kullanıcıların politikalarla ilgili geri bildirimlerinin alınması ve bu geri bildirimlere dayanarak politikaların iyileştirilmesi. Bu, kullanıcıların politikaları nasıl algıladığını anlamayı ve politikaların daha iyi anlaşılabilir olmasını içerir.
+   - ## 4. Veri Güvenliği Standartlarının Belirlenmesi
+      - ### 4.1 Veri Sınıflandırma
+         - Organizasyonların sahip olduğu verileri farklı kategorilere ayırarak bu verilere erişim, saklama ve koruma düzeyini belirleme sürecidir. Bu süreç, verilerin önem derecelerini belirleyerek, hangi verilerin nasıl işleneceğini ve korunacağını tanımlar.
+         - #### 4.1.1 Genel Veri
+            - Herkesin erişebileceği, genel kullanım için uygun olan ve hassasiyet düzeyi düşük olan verilerdir. Örneğin, genel bilgilendirme dokümanları gibi.
+         - #### 4.1.2 Hassas Veri
+            - Belirli bir hassasiyet seviyesine sahip olan ve sınırlı erişime ihtiyaç duyan verilerdir. Özel müşteri bilgileri veya ticari sırlar gibi.
+         - #### 4.1.3 Kritik Veri
+            - En yüksek hassasiyet seviyesine sahip, organizasyonun işleyişi için kritik olan ve en sıkı korumaya ihtiyaç duyan verilerdir. Örneğin, finansal veriler veya şirket içi stratejik planlar gibi.
+      - ### 4.2 Veri Erişim Kontrolleri
+         - Bir organizasyonun sahip olduğu verilere kimlerin, ne şekilde, ne zaman ve hangi düzeyde erişebileceğini belirleyen politika ve yönergelerdir. Bu kontroller, verilere yetkisiz erişimleri önlemek, veri gizliliğini korumak ve veri bütünlüğünü sağlamak amacıyla oluşturulur.
+         - #### 4.2.1 Kimlik Doğrulama Yöntemleri
+            - Kullanıcıların kimliklerini doğrulama süreçleri. Şifreler, çoklu faktör kimlik doğrulama (2FA/MFA), biyometrik veri gibi yöntemler bu kontrollerin içerisine dahil olabilir.
+         - #### 4.2.2 Yetkilendirme ve Yetki Yönetimi
+            - Kullanıcıların erişim seviyelerinin belirlenmesi ve bu seviyelere göre hangi kaynaklara erişebileceğinin belirlenmesi. Rol tabanlı erişim kontrolleri (RBAC), ayrıcalık verme ve yetkisiz erişimleri engelleme bu kontrollerin bir parçasıdır.
+         - #### 4.2.3 Erişim Denetimleri ve İzleme
+            - Hangi kullanıcıların hangi verilere eriştiğini ve ne zaman erişim sağladığını izleme. Bu, veri erişim aktivitelerinin kayıt altına alınması ve gerektiğinde bu kayıtların incelenmesi anlamına gelir.
+         - #### 4.2.4 Erişim Zamanlaması
+            - Hangi zaman dilimlerinde, hangi kullanıcıların hangi kaynaklara erişebileceğini belirleme. Belirli zamanlarda erişimin sınırlanması veya izin verilmesi bu kontroller arasında yer alabilir.
+         - #### 4.2.5 Veri Şifreleme ve Maskelenmesi
+            - Hassas verilerin şifrelenmesi veya maskelenmesi gerekliliği. Özellikle veri transferleri sırasında veya saklama sürecinde veri güvenliğini sağlamak için uygulanan kontrollerdir.
+      - ### 4.3 Veri Şifreleme Politikaları
+         - Organizasyonların hassas verilerini korumak amacıyla şifreleme tekniklerini kullanma ve yönetme stratejilerini belirleyen politika ve yönergelerdir. Bu politikalar, verilerin iletilmesi, saklanması ve işlenmesi sırasında şifreleme yöntemlerinin nasıl kullanılacağını belirler.
+         - #### 4.3.1 Hangi Verilerin Şifrelenmesi Gerektiği
+            - Politikalar, hangi veri türlerinin şifrelenmesi gerektiğini belirler. Örneğin, müşteri bilgileri, finansal veriler veya sağlık bilgileri gibi hassas verilerin şifrelenmesi gerekliliği bu politikaların bir parçası olabilir.
+         - #### 4.3.2 Şifreleme Yöntemleri ve Standartları
+            - Hangi şifreleme algoritmalarının kullanılacağı, hangi şifreleme standartlarının takip edileceği ve şifreleme anahtarlarının nasıl yönetileceği gibi konuları kapsar.
+         - #### 4.3.3 Veri Transferi ve Depolama Şifrelemesi
+            - Verilerin transfer edilmesi sırasında ve depolandığı zaman dilimlerinde şifrelemenin nasıl yapılacağını belirler. Özellikle veri depolama sistemleri veya taşınabilir medya gibi durumlar için şifreleme gerekliliklerini içerir.
+         - #### 4.3.4 Yetkilendirme ve Erişim Kontrolleri
+            - Şifrelenmiş verilere kimlerin erişebileceğini ve nasıl erişebileceğini belirler. Şifrelenmiş verilere erişim yetkilerini ve kullanıcı rollerini tanımlayan politikalar bu başlık altında olabilir.
+         - #### 4.3.5 Şifreleme Anahtarlarının Yönetimi
+            - Şifreleme anahtarlarının oluşturulması, depolanması, güncellenmesi ve sürdürülmesi ile ilgili politikaları içerir. Şifreleme anahtarlarının güvenliğinin sağlanması bu politikaların önemli bir parçasıdır.
+      - ### 4.4 Veri Saklama ve İmha Politikaları
+         - Organizasyonların sahip olduğu verilerin belirli bir süre boyunca nasıl saklanacağını ve bu verilerin ne zaman ve nasıl imha edileceğini belirleyen politika ve yönergelerdir.
+         - #### 4.4.1 Saklama Süresi
+            - Hangi verilerin ne kadar süreyle saklanacağını belirler. Yasal gereklilikler, iş gereksinimleri veya organizasyon politikaları doğrultusunda belirlenen süreler bu politikaların bir parçası olabilir.
+         - #### 4.4.2 Veri Saklama Yöntemleri
+            - Verilerin hangi yöntemlerle saklanacağını belirler. Fiziksel sunucularda, bulut depolama sistemlerinde veya diğer veri depolama ortamlarında nasıl saklanacağına dair politikalar bu başlık altında olabilir.
+         - #### 4.4.3 Veri İmha Prosedürleri
+            - Hangi verilerin, hangi yöntemlerle ve ne zaman imha edileceğini belirler. Veri imha sürecinin nasıl olacağı, hangi protokollerin takip edileceği ve izlenecek prosedürler bu politikaları içerir.
+         - #### 4.4.4 Veri İmha Yöntemleri
+            - Veri imha işlemi için kullanılacak yöntemleri belirler. Fiziksel imha (örneğin, kağıt belgelerin parçalanması), dijital imha (veri silme veya şifreleme) gibi yöntemler bu politikaların bir parçası olabilir.
+         - #### 4.4.5 İmha Sürecinde Uyulması Gereken Kurallar
+           - Veri imha sürecinde hangi yasal, etik veya kurumsal kurallara uyulması gerektiğini belirler. Özellikle kişisel verilerin imha edilmesi konusunda gizlilik yasalarına uyulmasını içerebilir.
+      - ### 4.5 Veri Paylaşım Politikaları
+         - Bir organizasyonun sahip olduğu verilerin güvenli ve kontrollü bir şekilde paylaşılmasını düzenleyen politika ve yönergelerdir. Bu politikalar, iç ve dış kaynaklarla yapılan veri paylaşımlarını yönetir ve hassas verilerin güvenli bir şekilde aktarılmasını sağlar.
+         - #### 4.5.1 Paylaşılabilir Veri Türleri
+            - Hangi tür verilerin paylaşılabilir olduğunu belirler. Örneğin, genel bilgi, sınırlı paylaşılan bilgi veya hassas veri gibi.
+         - #### 4.5.2 Paylaşım Yöntemleri
+            - Verilerin hangi yöntemlerle paylaşılacağını belirler. Email, paylaşılan sürücüler, bulut tabanlı depolama veya özel ağlar gibi yöntemler bu politikaların içinde olabilir.
+         - #### 4.5.3 Paylaşım İzinleri ve Yetkilendirme
+            - Hangi kullanıcıların hangi verilere erişebileceğini ve bu verileri hangi düzeyde paylaşabileceğini belirler. Yetkili kullanıcılar, paylaşımın süresi ve paylaşımın kapsamı bu politikaların bir parçasıdır.
+         - #### 4.5.4 Güvenlik ve Şifreleme
+            - Paylaşılan verilerin güvenliğini sağlamak için alınacak önlemleri belirler. Veri şifreleme, erişim kontrolü, veri bütünlüğü ve izleme bu politikaların önemli bir parçasıdır.
+         - #### 4.5.5 Paylaşım Süresi ve Sınırları
+            - Hangi süreyle paylaşımın geçerli olacağını ve hangi koşullarda paylaşımın sonlandırılacağını belirler. Ayrıca paylaşımın belirli kurallara uygun olarak sınırlanması bu politikaların bir kısmını oluşturur.
+# B. Güvenlik Denetimleri ve Testleri
+   - ## Tanım
+      - Bir organizasyonun ağ altyapısının güvenliğini ve bütünlüğünü değerlendirmek için yapılan kontrollerdir. Bu denetimler, ağın güvenliği ile ilgili riskleri belirlemek, uygunluk seviyelerini kontrol etmek ve olası zayıflıkları tespit etmek için gerçekleştirilir.
+   - ## 1. Ağ Güvenliği Denetimlerinin Önemi
+      - ### 1.1 Tanım
+		- Ağ güvenliği denetimleri, kurumların bilgi varlıklarını korumak, veri bütünlüğünü sağlamak ve yetkisiz erişimlere karşı önlem almak için kritik bir rol oynamaktadır. Denetimler, ağ güvenliği politikalarının uygunluğunu değerlendirir ve güvenlik açıklarını tespit ederek bu açıkları kapatmaya yönelik önlemleri belirler. Ayrıca, müşteri güvenini artırmak ve yasal uyumluluğu sağlamak için önemlidir.
+   - ## 2. Ağ Güvenliği Denetimlerinin Gerçekleştirilmesi
+      - ### 2.1 Tanım
+         - Bir organizasyonun ağ altyapısının güvenliğini ve bütünlüğünü değerlendirmek amacıyla gerçekleştirilen kontrollerdir. Bu denetimler, ağdaki güvenlik açıklarını belirlemek, uygunluk seviyelerini kontrol etmek, güvenlik politikalarının ve standartlarının uygun bir şekilde uygulanıp uygulanmadığını görmek için yapılır.
+
+      - Ağ güvenliği denetimleri, aşağıdaki adımları içermelidir:
+      - ### 2.2 Risk Değerlendirmesi ve Planlama
+         - Denetim öncesi, organizasyonun hedefleri ve ağ altyapısının özellikleri üzerine bir risk değerlendirmesi yapılır. Hangi tür tehditlerin öncelikli olduğu belirlenir ve denetim süreci planlanır.
+      - ### 2.3 Denetim Hazırlığı
+         - Denetim sürecine geçmeden önce, denetim ekibi ve yöntemleri belirlenir. Denetim ekibi, gereken yeteneklere ve uzmanlıklara sahip olmalıdır. Ayrıca, denetim sürecinde kullanılacak araçlar ve yöntemler de belirlenir.
+      - ### 2.4 Denetim Yürütme
+         - Belirlenen plan doğrultusunda ağ güvenliği denetimi gerçekleştirilir. Bu süreçte ağ altyapısı, güvenlik duvarları, sunucular, ağ cihazları ve yazılımlar gibi unsurlar incelenir. Zayıf noktalar, güvenlik açıkları ve uyumluluk sorunları tespit edilir.
+      - ### 2.5 Yetkilendirme Kontrolleri
+         - Kullanıcı erişim hakları ve yetkilendirme kontrolleri gözden geçirilmeli ve uygunluk değerlendirmesi yapılmalıdır. Özellikle, çalışanların işlevlerine uygun olarak erişim hakları belirlenmelidir.
+      - ### 2.6 Raporlama ve Değerlendirme
+         - Denetim sonuçları raporlanır. Tespit edilen zayıf noktalar, bulgular ve önerilen düzeltici eylemler raporlanarak yönetim veya ilgili ekiplere iletilir. Bu raporlar, mevcut durumu değerlendirmek ve geliştirme fırsatlarını belirlemek için kullanılır.
+      - ### 2.7 Düzeltici Eylemler ve Takip
+         - Raporlanan zayıf noktaların giderilmesi için düzeltici eylemler alınır. Bu aşamada, belirlenen sorunların çözümü ve ağ güvenliğinin artırılması için gerekli adımlar atılır. Ardından, yapılan düzeltici eylemlerin etkinliği ve tamamlanma durumu takip edilir.
+   - ## 3. Ağ Güvenliği Testleri
+      - ### 3.1 Tanım
+         - Bir organizasyonun ağ altyapısının güvenlik açıklarını tespit etmek ve bu açıkları kapatmak amacıyla yapılan test ve analizlerdir. Bu testler, ağdaki zayıf noktaları belirlemek, güvenlik önlemlerinin etkinliğini değerlendirmek ve olası saldırılara karşı savunmayı güçlendirmek için gerçekleştirilir.
+      - ### 3.2 Ağ Güvenliği Testlerinin Çeşitleri
+         - Ağ güvenliği testleri, ağdaki zayıflıkları ve güvenlik açıklarını tespit etmek amacıyla çeşitli teknikler kullanır. Ağ güvenliği testlerinin çeşitleri aşağıdaki gibidir.
+      - ### 3.2 Penetrasyon Testleri
+         - Ağdaki güvenlik açıklarını bulmak ve istismar etmek amacıyla gerçekleştirilen saldırı benzeri testlerdir. Bu testler, yetkili bir saldırganın bakış açısını temsil ederek ağın güvenlik düzeyini değerlendirir.
+      - ### 3.3 Zafiyet Taraması (Vulnerability Scanning)
+         - Ağ üzerindeki zayıf noktaları tespit etmek için otomatik araçlarla yapılan tarayıcılardır. Bu testler, ağda bulunan güvenlik açıklarını tanımlar ve bu zafiyetlerin ne kadar kritik olduğunu belirler.
+      - ### 3.4 Denetim Günlükleri ve İzleme
+         - Ağ üzerinde gerçekleşen aktivitelerin izlenmesi ve günlüklerin incelenmesi. Bu, ağa yapılan giriş-çıkışların denetlenmesini, potansiyel tehditlerin erken tespit edilmesini ve yanıt verilmesini sağlar.
+      - ### 3.5 Güvenlik Duvarı ve Sızma Testleri
+         - Ağ güvenlik duvarları üzerinde gerçekleştirilen testlerdir. Bu testler, güvenlik duvarlarının nasıl tepki verdiğini ve olası saldırılara karşı ne kadar etkili olduğunu değerlendirir.
+      - ### 3.6 Sosyal Mühendislik Testleri
+         - Saldırganların kullanıcıları manipüle etmek için kullandığı taktikleri test etmek amacıyla yapılır. Bu testler, kullanıcıların eğitim seviyelerini ve bilinç düzeylerini ölçer.
+   - ## 4. Ağ Güvenliği Testlerinin Faydaları
+      - ### 4.1 Zayıf Noktaların Tespiti
+         - Ağ güvenliği testleri, ağ altyapısında bulunan zayıf noktaları belirler. Bu zayıf noktalar, potansiyel bir saldırganın ağa giriş sağlayabileceği veya hassas verilere erişebileceği noktalardır. Testler, bu noktaların tespit edilmesini sağlayarak güvenlik açıklarının giderilmesine yardımcı olur.
+      - ### 4.2 Güvenlik Seviyesinin Değerlendirilmesi
+         - Testler, ağın mevcut güvenlik seviyesini değerlendirir. Bu sayede organizasyonlar, güvenlik açıklarını ölçebilir, riskleri belirleyebilir ve uygun önlemleri alarak güvenlik seviyelerini artırabilir.
+      - ### 4.3 Etkinlik ve Verimliliğin İyileştirilmesi
+         - Test sonuçları, güvenlik politikalarının ve önlemlerinin etkinliğini değerlendirir. Bu değerlendirme, hangi güvenlik önlemlerinin işe yaradığını, hangilerinin gereksiz olduğunu ve iyileştirme gerektiren alanları belirleyerek ağın daha güvenli hale gelmesine yardımcı olur.
+      - ### 4.4 Salıncak Etkisi Azaltma
+         - Testler, gerçek saldırılar olmadan güvenlik açıklarını tespit etme şansı verir. Bu sayede organizasyonlar, gerçek bir saldırı durumunda daha hazırlıklı olabilir ve zararın azaltılmasına yardımcı olabilir.
+      - ### 4.5 Uyumluluk ve Yasa İhlallerinin Önlenmesi
+         - Bazı sektörlerdeki yasal düzenlemelere uyum sağlamak önemlidir. Ağ güvenliği testleri, bu yasal düzenlemelere uyumluluğu değerlendirebilir ve organizasyonların yasa ihlallerini önlemesine yardımcı olabilir.
+      - ### 4.6 Maliyet Tasarrufu
+         - Erken tespit edilen güvenlik açıkları ve zayıf noktalar, ileride ortaya çıkabilecek büyük sorunların önlenmesine yardımcı olur. Bu da organizasyonların maliyetlerini düşürebilir.
+   - ## 5. Sonuç
+      - Ağ güvenliği denetimleri ve testleri, organizasyonların siber tehditlere karşı hazırlıklı olmalarını sağlar ve ağ güvenliği önlemlerini sürekli olarak iyileştirmelerine yardımcı olur. Bu süreçlerin düzenli olarak uygulanması, güvenlik açıklarının hızla tespit edilmesini ve kapatılmasını sağlar, böylece bilgi varlıkları daha etkin bir şekilde korunabilir.
+Ayrıca anlıyoruz ki herhangi bir organizasyonun güvenliğini sağlamak için sürekli bir çaba gereklidir. Bu yazı, ağ güvenliğinin dinamik bir süreç olduğunu ve şirketlerin her zaman tetikte olmaları gerektiğini vurguluyor. Organizasyonların bu zorluklara karşı hazır olmaları ve güvenlik önlemlerini düzenli olarak gözden geçirmeleri, ağ güvenliği açısından hayati önem taşıyor.
+# C. Güncel Ağ Güvenliği Sorunları ve Çözümleri
+   - Ağ güvenliği, bilgi iletişiminin sağlanması için kullanılan ağların, sistemlerin ve verilerin korunmasını sağlamak amacıyla geliştirilen önlemleri içerir. Günümüzdeki güncel ağ güvenliği sorunları, teknolojideki sürekli ilerlemeler ve artan bağlantılılık ile birlikte daha karmaşık hale gelmiştir.
+   - ## 1. DDoS Saldırıları
+      - ### 1.1 Tanım
+         - Ağların normal işleyişini engelleyen ve kaynakları tüketerek hizmet kesintilerine neden olan saldırı türlerinden biridir. Bu saldırılar, genellikle ağa yoğun bir trafik göndererek veya ağ kaynaklarını tüketerek ve hizmet kalitesini düşürerek gerçekleştirilir. Güncel ağ güvenliği bağlamında, DDoS saldırıları hala büyük bir sorun teşkil etmektedir.
+      - ### 1.2 DDoS saldırılarına karşı kullanılan bazı teknikler şunlardır:
+         - #### 1.2.1 Trafik Analizi ve Filtreleme
+            - Ağ üzerindeki trafiği analiz etmek ve zararlı trafiği filtrelemek için özel ekipman ve yazılımlar kullanılır. Bu sayede saldırgan trafik ayıklanarak gerçek kullanıcı trafiği ağa ulaşabilir.
+         - #### 1.2.2 Bulut Tabanlı Güvenlik Hizmetleri
+            - Bulut tabanlı güvenlik hizmetleri, DDoS saldırılarına karşı daha ölçeklenebilir ve geniş kaynaklara erişim sağlayarak ağın korunmasını sağlar.
+         - #### 1.2.3 Ağ Kaynaklarının Dengelemesi
+            - Yük dengeleyiciler gibi cihazlar, ağdaki trafiği dengeleyerek yoğunluğu azaltır ve potansiyel DDoS etkilerini hafifletir.
+         - #### 1.2.4 Veri Merkezi Optimizasyonu
+            - Veri merkezi kaynaklarının optimize edilmesi ve dağıtılması, ağa gelen aşırı yükü absorbe edebilir ve saldırının etkisini azaltabilir.
+         - #### 1.2.5 Saldırı Tespit ve Engelleme Sistemleri
+            - Otomatik saldırı tespit sistemleri, ağdaki anormal trafik desenlerini algılayarak saldırıyı erken aşamada tespit eder ve saldırgan trafik kaynaklarını engeller.
+   - ## 2. Veri İhlalleri
+      - ### 2.1 Tanım
+         - Hassas bilgilerin izinsiz erişim, ifşa veya çalınmasıyla gerçekleşen durumlardır. Bu ihlaller, kişisel bilgilerin, finansal verilerin veya ticari sırların zarar görmesiyle sonuçlanabilir ve ciddi sorunlar ortaya çıkarabilir. Güncel ağ güvenliği bağlamında, veri ihlalleri halen büyük bir endişe kaynağıdır.
+      - ### 2.2 Veri ihlallerine karşı alınan önlemler ve çözümler şunlardır:
+         - #### 2.2.1 Güçlü Şifreleme ve Erişim Kontrolleri
+            - Hassas verilerin şifrelenmesi, yetkilendirilmemiş erişimleri engeller. Ayrıca, katı erişim kontrolü mekanizmaları, verilere sadece gereken kişilerin erişmesini sağlar.
+         - #### 2.2.2 Güvenlik Duvarları ve Kapsamlı Güvenlik Yazılımları
+            - Güvenlik duvarları ve antivirüs yazılımları gibi güvenlik önlemleri, dışarıdan gelen zararlı yazılımlara karşı koruma sağlar.
+         - #### 2.2.3 Düzenli Güvenlik Güncellemeleri
+            - Yazılım ve sistemlerin düzenli olarak güncellenmesi, var olan güvenlik açıklarının kapatılmasına yardımcı olur. Bu, bilinen zafiyetlere karşı savunma sağlar.
+         - #### 2.2.4 Veri Yedekleme ve Kurtarma Planları
+            - Veri yedekleme stratejileri ve kurtarma planları, olası bir veri ihlali durumunda verilerin geri yüklenmesini ve kayıpların en aza indirilmesini sağlar.
+         - #### 2.2.5 İzleme ve Anomali Tespiti
+            - Ağ üzerindeki etkinliklerin izlenmesi ve anormal davranışların tespit edilmesi, olası bir ihlali önceden belirleyebilir ve hızlı müdahale sağlayabilir.
+         - #### 2.2.6 Farkındalık ve Eğitim
+            - Personel eğitimi ve farkındalığı, iç tehditlerin ve bilgi güvenliği en zayıf halkalarının ele alınmasında önemli bir rol oynar.
+   - ## 3. IoT Güvenliği
+      - ### 3.1 Tanım
+         - Cihazların ve nesnelerin internet üzerinden birbirleriyle iletişim kurabildiği bir ağ ekosistemini ifade eder. IoT, akıllı ev cihazlarından endüstriyel sensörlere kadar geniş bir yelpazede kullanılmaktadır. Ancak, IoT cihazları genellikle düşük güvenlik standartlarına sahiptir ve bu da güvenlik açıklarına yol açabilir.
+      - ### 3.2 IoT güvenliği için alınan önlemler ve çözümler şunlardır:
+         - #### 3.2.1 Güçlü Kimlik Doğrulama ve Yetkilendirme
+            - IoT cihazlarının güvenliği için güçlü kimlik doğrulama ve yetkilendirme mekanizmaları gereklidir. Özellikle, güçlü parolalar ve kimlik doğrulama protokolleri kullanılmalıdır.
+         - #### 3.2.2 Güvenlik Güncellemeleri ve Yazılım Sürdürülebilirliği
+            - IoT cihaz üreticileri, güvenlik açıkları ortaya çıktığında düzenli olarak güncelleme sağlamalıdır. Ayrıca, cihazlar ömrünü tamamladığında güncelleme ve destek sunulmalıdır.
+         - #### 3.2.3 Ağ ve Veri Şifreleme
+            - Veri iletişiminde ve depolanmasında şifreleme kullanılmalıdır. Bu, bilgilerin yetkisiz erişimden korunmasına yardımcı olur.
+         - #### 3.2.4 Güvenlik Testleri ve Değerlendirmeleri
+            - IoT cihazları güvenlik testlerine tabi tutularak, zayıf noktalar tespit edilmeli ve giderilmelidir.
+         - #### 3.2.5 İzleme ve Anomali Tespiti
+            - IoT cihazlarının davranışlarını izlemek ve anormal durumları tespit etmek, potansiyel tehditlerin erken belirlenmesini sağlar.
+   - ## 4. Yapay Zeka ve Makine Öğrenimi Güvenliği
+      - ### 4.1 Tanım
+         - Güvenlik alanında yeni sorunlar doğurabilirken aynı zamanda güvenlik çözümleri için de kullanılabilirler. Yapay Zeka ve Makine Öğrenimi Güvenliği, bu teknolojilerin kötü niyetli amaçlarla kullanılmasını önlemeyi ve bu teknolojilerin kendisinin güvenliğini sağlamayı hedefler.
+      - ### 4.2 Yapay Zeka ve Makine Öğrenimi Güvenliği için temel konular ve çözümler şunlardır:
+         - #### 4.2.1 Veri Güvenliği
+            - Yapay zeka ve makine öğrenimi modelleri, veriye dayalıdır. Dolayısıyla, bu verilerin gizliliği ve bütünlüğü önemlidir. Veriye yapılan yetkisiz erişimler ve veri manipülasyonları engellenmelidir.
+         - #### 4.2.2 Saldırı Tespiti ve Savunma
+            - Yapay zeka ve makine öğrenimi algoritmaları, saldırılara karşı savunmasız olabilir. Bu nedenle, bu algoritmaların saldırılara karşı dirençli olması ve anomali tespiti için kullanılabilmesi önemlidir.
+         - #### 4.2.3 Yanıltıcı Veri ve Saldırılar
+            - Yapay zeka sistemleri, yanıltıcı verilerle (örneğin, yanıltıcı etiketler veya gürültülü veriler) manipüle edilebilir. Bu tür saldırıları engellemek için güvenlik kontrolleri ve algoritmalar geliştirilmelidir.
+         - #### 4.2.4 Şeffaflık ve Güvenilirlik
+            - Yapay zeka ve makine öğrenimi modellerinin içsel çalışma mekanizmaları karmaşık olabilir. Bu nedenle, bu modellerin nasıl kararlar verdiği ve neden bu kararları verdiği anlaşılabilir olmalıdır.
+         - #### 4.2.5 Güvenlik Testleri ve Doğrulama
+            - Yapay zeka sistemleri, güvenlik açıkları içerebilir. Bu nedenle, bu sistemlerin düzenli olarak güvenlik testlerine tabi tutulması ve güvenlik açıklarının giderilmesi önemlidir.
