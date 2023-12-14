@@ -1,4 +1,4 @@
-# AĞ GÜVENLİĞİ PROJE ÖDEVİ
+# Ağ Güvenliği Stratejileri ve Uygulamaları
 ## Aşağıdaki maddeler üzerinde durulacaktır
 ### [A. Ağ Güvenliği Politikaları](#a-ağ-güvenliği-politikaları-1)
 ### [B. Güvenlik Denetimleri ve Testleri](#b-güvenlik-denetimleri-ve-testleri-1)
